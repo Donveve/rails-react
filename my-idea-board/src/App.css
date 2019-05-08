@@ -1,0 +1,233 @@
+ul.header1 li {
+  float: right;
+  list-style-type: none;
+  /* margin: 0; */
+  top: 0;
+  margin-top: -50px;
+
+}
+ul.header1 {
+  padding: 0;
+
+}
+ul.header1 li a {
+  color:navy;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block; 
+}
+
+/* .form-control {
+  display: block;
+  width: 50%!important;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+} */
+
+.signin{
+  float: right; 
+  color: #f2f2f2;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+  font-size: 17px;
+  /* margin-top: 10px; */
+  /* display: inline; */
+}
+
+.img1{
+  background-image: url("https://i.imgur.com/ZD859uS.jpg");
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 20px;
+  /* margin-bottom: 15px; */
+  text-transform: uppercase;
+  color: white;
+}
+
+
+ul.home1 {
+   text-decoration: none; 
+   margin-top: -20px; 
+  text-align: center;
+}
+
+.signout{
+margin-right: 170px;
+margin-top: -270px; 
+/* position: fixed; */
+padding: 14px 16px;
+
+}
+
+
+form {
+  display: block;
+  margin-top: 60px!important;
+  margin-right: 150px;
+}
+
+.form-group {
+  width: 50%!important;
+
+  margin-bottom: 1rem;
+}
+
+.alert-danger {
+  width: 50%!important;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 40;
+  /* line-height: 1.5; */
+  color: #212529;
+  text-align: left;
+  background-color: #f0f6f7;
+}
+
+
+#root{
+  margin-top: 50px;
+}
+
+.App-header {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+  background-image: url("https://i.imgur.com/3J2pK6h.png");
+  background-color: #fff;
+  /* margin-bottom: 15px; */
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.App-header h1, .App-header h2 {
+  font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+
+}
+
+.App-header h1 {
+  font-size: 4.5rem;
+}
+
+.App-header h2 {
+  font-size: 2.8rem;
+}
+
+.info {
+  text-align: center;
+}
+
+.notification {
+  margin: 15px 0 0;
+  width: 100%;
+  min-height: 24px;
+}
+
+.input {
+  border: 0;
+  background: none;
+  outline: none;
+}
+
+.input:focus {
+  color: #3c59a0;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+.deleteButton {
+  visibility: hidden;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: red;
+}
+
+.card:hover .deleteButton {
+  visibility: visible;
+}
+
+.card {
+  margin: 15px 0;
+  border-style: solid;
+  border-color: red green blue yellow;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* padding-bottom: 2em; */
+}
+
+.title {
+  margin-top: 45px ;
+}
+
+.demoIdeas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.demoIdeas .card {
+  border: 3px solid #81dae8;
+}
+
+.demoIdeas .card {
+  max-width: 400px;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn-success {
+  margin: 25px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .demoIdeas .card {
+    width: 720px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+  .demoIdeas .card-img-top {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .deleteButton {
+    visibility: visible;
+  }
+  .info {
+    text-align: left;
+  }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Reem+Kufi|Playfair+Display');
+
+//== Colors
+
+$aqua:    #0da9fd !default;
+$powderbl: #f0f6f7 !default;
+
+$primary: $aqua !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $powderbl !default;
+
+//== Typography
+
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif !default;
+$headings-font-family:    "Reem Kufi", Helvetica, Arial, sans-serif !default;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
