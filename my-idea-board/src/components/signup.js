@@ -45,6 +45,8 @@ class Signup extends Component {
 
     return (
       <form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
+        <h3>Create your account</h3>
+
         <Field
           label="Email"
           name="email"
